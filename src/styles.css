@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-mario {
+    height: 200px;
+}
+
+.paragrafo-primario {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 130%;
+}
+
+.paragrafo-segundario {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #ffffff;
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 100%;
+    margin-bottom: 20px;
+    line-height: 150%;
+}
+
+
+button {
+    color: #ffffff;
+    background-color: #c51111;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: transparent;
+    transition: 1s ease-in-out;
+}
+
+.logo-mario-e-luigi {
+    height: 500px;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    /*align-items ageita no heicho vertical*/
+    /*só posso usar esses 2 carinhas (align-items, justify-content) quando eu usar o displasy-flex*/
+    justify-content: space-around;
+    /*justify-content ageita no heicho horizontal*/
+    /*só posso usar esses 2 carinhas (align-items, justify-content) quando eu usar o displasy-flex*/
+    padding: 100px;
+    height: 100vh;
+}
+
+.principal {
+    width: 50%;
+}
+
+.video-fundo {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.logo-whatsapp {
+    height: 5%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.logo-whatsapp:hover {
+    height: 100px;
+    transition: 1s ease-in-out;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+}
+
+.cabeçalho img {
+    height: 50px;
+}
+
+.cabeçalho a {
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cabeçalho a:hover {
+    font-size: 30px;
+    color: #c51111;
+    transition: 0.9s ease-in-out;
+
+}
+
+.formulario {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 20%;
+    left: -341px;
+    padding: 2%;
+    border-radius: 8px;
+    gap: 15px;
+    transition: left 1s ease-in-out;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+}
+
+.idade-pet {
+    width: 125px;
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+}
+
+.button-orçamento:hover {
+    background: transparent;
+    transition: 1s ease-in-out;
+    color: black;
+}
+
+.mascara-form {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 1s ease-in-out;
+}
+
+/* Inicial
+        top: 30%;
+        left: - 341px;
+
+    Final
+        top: = 30%;
+        left: = 50%;
+        transform: translateX(+50%);
+
+    */
+
+
+
+
+
+
+
+
+
+/* temos tambem outras formas de chamar nossa class colocando cla na nossa tag a e para chamar podemos fazer assim tambem .logo-whatsapp img ou tabem colocando assim a img essas 3 formas vão conseguir chamar o link para poder stylizar ele .  */
+
+/*
+TOP - CIMA 
+BOTTOM - BAIXO
+LEFT - ESQUERDA
+RIGHT - DIREITA
+*/

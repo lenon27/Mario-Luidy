@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/assent.css">
+    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="./src/responnsivo.css"> 
+    <title>Mario Bros</title>
+</head>
+
+<body>
+    <div class="mascara-form" onclick="hideForm()"></div>
+
+
+    <header class="cabeçalho">
+        <img src="./src/img/logo-header.png" alt="logo mario">
+        <a href="">Home</a>
+        <a href="">Nosso Serviços</a>
+        <a href="https://api.whatsapp.com/send?phone=5511947586034&text=ol%C3%A1%20fa%C3%A7a%20um%20or%C3%A7amento%20">Fale
+            Conosco</a>
+
+    </header>
+
+    <main class="caixa-main">
+        <div class="principal">
+            <img class="logo-mario" src="./src/img/logo.png" alt="Logo do Mario Bros">
+            <p class="paragrafo-primario"><strong>🔧 Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos
+                    Com Estilo! 🔧</strong>
+            </p>
+            <br>
+            <p class="paragrafo-segundario">
+                Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
+            </p>
+
+            <button onclick="showForm()">Entre em Contato</button>
+        </div>
+
+        <div>
+            <img class="logo-mario-e-luigi" src="./src/img/mario.webp" alt="logo mario e luigi">
+        </div>
+
+    </main>
+
+    <div class="video-fundo">
+        <video src="./src/img/video.mp4" autoplay muted loop></video>
+    </div>
+
+    <div class="mascara"></div>
+
+
+    <a href="https://api.whatsapp.com/send?phone=5511947586034&text=ol%C3%A1%20fa%C3%A7a%20um%20or%C3%A7amento%20">
+        <img class="logo-whatsapp" src="./src/img/whatsapp.webp" alt="logo whatsapp">
+    </a>
+
+    <form 
+        class="formulario" 
+        action="https://formcarry.com/s/c3OE9URtwDz" method="POST" 
+        enctype="multipart/form-data">
+
+        <input placeholder="Seu nome" type="text" name="nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+        <input placeholder="Raça do seu pet" type="Raça-pet" name="Raça do seu pet">
+        <!-- <input placeholder="Idade do seu cachorro"> -->
+        <input type="number" name="idade do seu pet" placeholder="Idade do seu pet" class="idade-pet">
+        <textarea placeholder="Faça seu orçamento" name="duvida"></textarea>
+        <button class="button-orçamento" type="submit">Pedir Orçamento</button>
+    </form> 
+</body>
+<script src="./src/scripts.js"></script>
+
+</html>
